@@ -1,0 +1,83 @@
+/* Updated CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional sans-serif font */
+    background-color: #f0f0f0; /* light grey background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* medium gray radius shadow */
+    text-align: center; /* Center align all text and elements */
+}
+
+h1, h2 {
+    font-size: 36px; /* Larger font size */
+    font-family: 'Roboto', Arial, sans-serif; /* Professional sans-serif font */
+    margin-bottom: 20px;
+}
+
+.box {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* medium gray radius shadow */
+}
+
+.title {
+    background-color: #fff; /* white background */
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content {
+    background-color: #f9f9f9; /* light gray background */
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    font-size: 18px; /* Larger font size */
+    line-height: 1.6; /* Improved readability with increased line height */
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.le-wagon-link {
+    margin-top: 10px;
+}
+/* Updated CSS with hover animation for social links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Larger font size */
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.social-links a:hover {
+    transform: scale(1.2); /* Scale the link on hover */
+}
